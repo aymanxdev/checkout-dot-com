@@ -1,0 +1,29 @@
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+}
+.table-body {
+  background-color: white;
+  border-radius: 10px;
+}
+.table-header {
+  font-weight: bold !important;
+}
+.MuiButton-containedPrimary {
+  height: 3.4rem;
+  margin-left: 1rem !important;
+  padding-right: 57px !important;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(39, 142, 255, 1) 11.2%,
+    rgba(98, 113, 255, 0.78) 100.2%
+  );
+  font-weight: bold !important;
+}
+
+.MuiOutlinedInput-input {
+  padding-right: 57px !important;
+  background-color: white !important;
+}
