@@ -32,6 +32,7 @@ console.log(manipulateStudentRecord(obj, "delete", "city", "Seattle"))
 `;
   return (
     <div className="code-container">
+      <h1 className="gradient-text">Manipulate Students' Records code </h1>
       <SyntaxHighlighter
         className="code-block"
         language="javascript"

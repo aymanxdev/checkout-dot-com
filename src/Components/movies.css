@@ -27,3 +27,24 @@
   padding-right: 57px !important;
   background-color: white !important;
 }
+
+.gradient-title {
+  margin-bottom: 1em;
+  background-image: linear-gradient(
+    105.3deg,
+    rgba(30, 39, 107, 1) 21.8%,
+    rgba(77, 118, 221, 1) 100.2%
+  );
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}

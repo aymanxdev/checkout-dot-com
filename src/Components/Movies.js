@@ -60,6 +60,8 @@ const Movies = () => {
 
   return (
     <div>
+      <h1 className="gradient-title">Find Your Favourite Movie</h1>
+
       <form onSubmit={searchMovies}>
         <TextField
           className="search-input"
